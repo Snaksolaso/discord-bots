@@ -1,6 +1,6 @@
 import nextcord
 from nextcord.ext import commands
-from discordtoken import TOKEN
+from sobboardtoken import TOKEN
 SOB_THRESHOLD = 3
 intents = nextcord.Intents.default()
 intents.message_content = True
